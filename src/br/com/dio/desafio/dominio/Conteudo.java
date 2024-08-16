@@ -33,6 +33,14 @@ public abstract class Conteudo {
 		this.descricao = descricao;
 	}
 
+	@Override
+	public String toString() {
+		return "Conteudo titulo=" + titulo + ", descricao=" + descricao + ", calcularXp()=" + calcularXp()
+				+ ", getTitulo()=" + getTitulo() + ", getDescricao()=" + getDescricao() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString();
+	}
+
+
 
 	
 	
